@@ -1,22 +1,68 @@
- <!DOCTYPE html>
+<link rel="stylesheet" href="header.css" />
+
+<!DOCTYPE html>
 <html>
-	<body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="home.css" />
+        <link rel="stylesheet" href="header.css" />
 
-		<script id="templateExample" type="text/template">
-			<div>
-				<%= attribute %>
-			</div>
-		</script>
+    </head>
+    
+    <body>
+        <header>
+            <div id = div_head>
+                <img src="images/Logo.jpeg">
+                <div id = sign>
+                    <button id="btnPopupInscription" class="btnPopup">Inscription</button>
+                    <button id="btnPopupConnexion" class="btnPopup">Connexion</button>
+                </div>
+    
+            </div>
+            
+        </header>
+        <section class ="page">
 
-		<h1>It works nice !</h1>
-	
-		<h1>It works a little !</h1>
-		<button id="button">Call webservice</button>
-		
-		<div id="result"></div>
-		
-	    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-		<script type="text/javascript" src="home.js"></script>
-	</body>
+            <h1>
+                My Football Forum
+            </h1>
+            <p>Voici un petit descriptif du site</p>
+        </section>
+
+        <section id="themes" class="page">
+            <div class="themes">
+				<a href="forum.html">
+                <h2>Ligue 1</h2>
+                <img src="images/Logo.jpeg"> 
+				</a>
+            </div>
+ <div class="themes">
+				<a href="forum.html">
+                <h2>Ligue 1</h2>
+                <img src="images/Logo.jpeg"> 
+				</a>
+            </div>
+ <div class="themes">
+				<a href="forum.html">
+                <h2>Ligue 1</h2>
+                <img src="images/Logo.jpeg"> 
+				</a>
+            </div>
+ <div class="themes">
+				<a href="forum.html">
+                <h2>Ligue 1</h2>
+                <img src="images/Logo.jpeg"> 
+				</a>
+            </div>
+ <div class="themes">
+				<a href="forum.html">
+                <h2>Ligue 1</h2>
+                <img src="images/Logo.jpeg"> 
+				</a>
+            </div>
+            
+        </section>
+    
+    </body>
+    <script src="javascript.js"></script>
 </html>

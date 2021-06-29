@@ -1,0 +1,39 @@
+body{
+    background-color: darkgray;
+}
+.page{
+    width: 80%;
+    margin: auto;
+
+    background-color:darkgray;
+
+    text-align: center;
+}
+.tab{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    background-color: blanchedalmond;
+}
+#themes, #centre{
+width: 20%;
+margin: auto;
+background-color: blanchedalmond;
+
+}
+#existe, #nouveau{
+    width: 40%;
+}
+
+h2{
+    border-top: black solid;
+}
+span{
+    border: black solid;
+    background-color: white;
+    margin: 2%;
+}
+
+.tab section div, #themes div {
+    margin-bottom: 4%;
+}

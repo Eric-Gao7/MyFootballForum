@@ -1,34 +1,25 @@
 header
 {
-    width: 100%;
-    border-bottom: solid black 1px;
+   border: solid blue 1px;
+   background-color: cornsilk;
 }
-
-#Logo
-{
-    margin-left: 0%;
-    margin-right: 80%;
-    margin-bottom: 2%;
-    width: 20%;
-    height: 20%;
-}
-
-/* Bouton */
-header div{
+#div_head{
     display: flex;
-    float: right;
-    margin-top: 0.5%;
-    margin-right: 5%;
-    width: 20%;
+}
+header div img{
+    border: solid 1px blue;
+    width: 10%;
 }
 
-header .btnPopup  {
-    width: 47%;
-    font-weight: bold;
+#sign
+{
+    width: auto;
     text-align: center;
-    text-transform: uppercase;
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration:none;
-}
+margin-top: 2%;
+margin-left: 70%;
 
+}
+.btnPopup{
+    width: 80%;
+    font-size: 100%;
+}
